@@ -1,0 +1,23 @@
+#Arithmetic Operators
+x=14,y=62
+1)Addition +
+    z=(x+y)
+    print(z)#output 
+
+2)Subtraction -
+    z=(x-y)
+
+3)Multiplication *
+    z=(x*y)
+
+4)Division /
+    z=(x/y)
+
+5)Modules %
+    z=(x%y)
+
+6)Exponentiation **
+    z=(x**y)
+
+7)Floor Division //
+    z=(x//y)
