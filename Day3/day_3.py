@@ -25,3 +25,4 @@ number=(1,3,5)
 dict={"name":"Aniket","age":21,"City":"Modasa"}
 print(dict)
 print(type(dict))
+
