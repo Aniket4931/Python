@@ -194,6 +194,3 @@ ascending=sorted(Dict.items(),key=lambda x:x[1])
 print("Ascending : ",ascending)
 print("Oldest : ",ascending[-1][0])
 print("youngest : ",ascending[0][0])
-
-a=[45,85,86,96]
-print(a[0:0])
