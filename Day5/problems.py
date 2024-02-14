@@ -16,7 +16,6 @@ print(pattern)
 A = [5, 17, 100, 1]
 max=float('-inf');
 min=float('inf')
-print(type(max))
 for num in A:
     if num%2==0 and num>max:
         max=num
