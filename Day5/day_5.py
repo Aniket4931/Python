@@ -24,10 +24,10 @@ for i in numbers:
 print("Sum of Even Numbers : ",ev)
 
 """
-3  . Write a program that displays the numbers from 1 to 10 using a for loop.
+3  . Write a program that displays the numbers from 1 to 10 using a for loop.(try with single line)
+
 """
-for i in range(1,11):
-    print(i)
+for i in range(1,11): print(i)
 
 """
 4  . Write a program that takes a number as input from the user and displays 
@@ -55,3 +55,16 @@ for i in numbers:
 5.  Write a program that takes a number as input from the user and displays
  whether the number is prime or not using a try-except block.
 """
+try:
+    number=int(input("Enter Number : "))
+    if number <= 1:
+        raise ValueError("Number is greter than")
+    for i in range(2, int(number/2) + 1):
+        if (number % i) == 0:
+            print(number, "is not a prime number")
+            break
+    else:
+        print(number, "is a prime number")
+
+except ValueError:
+    print("Error")
