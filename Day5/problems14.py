@@ -1,15 +1,15 @@
 # Problem 1
 A1 = [3, 2, 6, 4, 5]
 A2 = [1, 3, 2, 5]
-Min=A1[0]
-Max=A1[0]
+Min=A2[0]
+Max=A2[0]
 Sum=0
-for i in range(len(A1)):
-    if A1[i]<Min:
+for i in range(len(A2)):
+    if A2[i]<Min:
         Min=A1[i]
-    if A1[i]>Max:
+    if A2[i]>Max:
         Max=A1[i]
-for num in A1:
+for num in A2:
     Sum += num
 ssum = (Max*(1+Max)/2)-(Min*(Min-1)/2)
 if ssum == Sum:
@@ -18,7 +18,7 @@ else:
     print(0)
 
 # Problem 2
-number=555
+number=1010
 k=[]
 while number>0:
     d=number%10
