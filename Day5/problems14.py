@@ -11,11 +11,18 @@ for i in range(len(A1)):
         Max=A1[i]
 for num in A1:
     Sum += num
-n = Max - Min + 1
-ssum = n * (n + 1) // 2
+ssum = (Max*(1+Max)/2)-(Min*(Min-1)/2)
 if ssum == Sum:
     print(1)
 else:
     print(0)
 
 # Problem 2
+number=555
+k=[]
+while number>0:
+    d=number%10
+    k.insert(0,d)
+    number//=10
+
+print(k)
